@@ -1,4 +1,5 @@
 # NLP-Redditproject
+By Kailhan Hokstam and Ruben Bijl
 ## Detecting threads on Reddit needing moderator attention using NLP
 
 ### Introduction 
