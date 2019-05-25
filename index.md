@@ -1,4 +1,3 @@
-## Welcome to GitHub Pages
 # NLP-Redditproject
 _By Kailhan Hokstam and Ruben Bijl_
 ## Detecting threads on Reddit needing moderator attention using NLP
