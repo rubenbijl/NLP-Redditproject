@@ -10,3 +10,6 @@ Reddit is a website that hosts a collection of forums, “subreddits”, where u
 Non balanced data: https://drive.google.com/open?id=15pMIqPaJ9zwfSCd_EtihrYopltDPNzDj
 
 Balanced Reddit data: https://drive.google.com/open?id=1fylgv2phcZV_uUfn7NTF0D-uFOsuT4Tg
+
+
+https://rubenbijl.github.io/NLP-Redditproject/
