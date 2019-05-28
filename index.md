@@ -20,15 +20,12 @@ The results obtained using the custom made model were very good, however these r
 
 In further projects it would be interesting to not ‘flatten’ the comments of a thread, so that the structure of the thread could be taken into account, longer comment chains might imply discussions, which can lead to abusive behaviour. Due to limited resources it was not possible to implement a neural network as proposed by Tang, Qin & Lio (2015), but such a method that tries to represent the structure of in their case a document with paragraphs and in this paper a thread with comments, seems promising.
 
-| Subreddit | No. Not Locked | No. Locked |
-| --- | --- | --- |
-| BlackPeopleTwitter | 880 | 15 |
-| Whitepeopletwitter | 992 | 2 |
-| Cringepics | 976 | 12 |
-| Cringe | 976 | 10 |
-| News | 967 | 29 |
-| IAmA | 984 | 15 |
-| Gaming | 970 | 13 |
-| AskScience | 964 | 36 |
-| Circlejerk | 990 | 2 |
-| Politics | 994 | 1 |
+| Metrics | GloVe Twitter embeddings + LSTM on Reddit Dataset (n = 1770) | 
+| --- | --- |
+| Accuracy | 0.937677 | 
+| Precision | 0.889447 | 
+| Recall | 1.000000 | 
+| F1 score | 0.941489 |
+| Cohen’s kappa | 0.875309 |
+| ROC AUC | 0.962555 | 
+
