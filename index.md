@@ -11,6 +11,8 @@ The data used to analyze ‘/r/BlackPeopleTwitter’ has been obtained using Pyt
 
 For oversampling the data a method is made to divide the data equally. This is a important process for the Reddit threads, since the data consists of almost 1000 threads, all different amount of comments. This means that a few threads with the most amount of comments will be as large a dataset as a big set of threads with a small amount of comments. For oversampling the data of the locked threads, the data is divided in locked threads and non-locked threads, sorted by the amount of comments in those threads. The total amount of either locked or not locked comments is divided by 10. 
 
+![alt text](https://i.imgur.com/p04GK4G.png)
+
 Our model consisted of Stanford’s GloVe pre trained word embedding layer provided by Stanford GloVe’s algorithm, specifically the 25 dimensional Twitter word vectors. This is connected with a LSTM layer of 128 units, which corresponds with the dimensionality of this layers output space. The last layer is a single standard densely-connected NN layer using a sigmoid activation function. The model is compiled with as objective function  a standard binary cross-entropy loss, the adam optimizer and as metric accuracy.
 
 ### THE RESULTS
