@@ -19,3 +19,16 @@ The results indicate that it is possible to detect if a thread can be locked usi
 The results obtained using the custom made model were very good, however these results could not be replicated on Pang and Lee's Movie Review Dataset strongly suggesting that the data scraped contains features that only appear after a thread has been locked for the locked threads or the dataset is in some other way strongly biased, because the model performs very weakly on a benchmark that is known to be valid. The fact that the SVM actually performs on par and even slightly better than the model using LSTM also supports this fact, because according to other benchmarks, a LSTM based model should outperform a SVM on sentiment analysis related tasks, but this is not the case in these experiments.
 
 In further projects it would be interesting to not ‘flatten’ the comments of a thread, so that the structure of the thread could be taken into account, longer comment chains might imply discussions, which can lead to abusive behaviour. Due to limited resources it was not possible to implement a neural network as proposed by Tang, Qin & Lio (2015), but such a method that tries to represent the structure of in their case a document with paragraphs and in this paper a thread with comments, seems promising.
+
+| Subreddit | No. Not Locked | No. Locked |
+| --- | --- |
+| BlackPeopleTwitter | 880 | 15 |
+| Whitepeopletwitter | 992 | 2 |
+| Cringepics | 976 | 12 |
+| Cringe | 976 | 10 |
+| News | 967 | 29 |
+| IAmA | 984 | 15 |
+| Gaming | 970 | 13 |
+| AskScience | 964 | 36 |
+| Circlejerk | 990 | 2 |
+| Politics | 994 | 1 |
