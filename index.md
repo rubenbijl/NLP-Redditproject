@@ -21,7 +21,7 @@ The results obtained using the custom made model were very good, however these r
 In further projects it would be interesting to not ‘flatten’ the comments of a thread, so that the structure of the thread could be taken into account, longer comment chains might imply discussions, which can lead to abusive behaviour. Due to limited resources it was not possible to implement a neural network as proposed by Tang, Qin & Lio (2015), but such a method that tries to represent the structure of in their case a document with paragraphs and in this paper a thread with comments, seems promising.
 
 | Subreddit | No. Not Locked | No. Locked |
-| --- | --- |
+| --- | --- | --- |
 | BlackPeopleTwitter | 880 | 15 |
 | Whitepeopletwitter | 992 | 2 |
 | Cringepics | 976 | 12 |
